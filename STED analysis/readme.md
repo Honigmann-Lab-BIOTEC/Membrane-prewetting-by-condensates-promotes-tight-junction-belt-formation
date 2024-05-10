@@ -1,7 +1,10 @@
+Programming language: MATLAB R2019a, Toolbox Image Processing required
+OS Name: Windows 10 Enterprise LTSC
+OS Type: 64-bit
+
 Analysis code for STED images of ZO1 and PATJ at tight junctions
 
-Code is written and tested in MATLAB R2019a.
-Image Processing Toolbox is required. Make sure to add the folder "Matlab helper functions" to your MATLAB path.
+Make sure to add the folder "Matlab helper functions" to your MATLAB path.
 
 The code produces a distance histogram of the potein PATJ to the most apical strand of the protein ZO1 (See figure 3 in the paper).
 
