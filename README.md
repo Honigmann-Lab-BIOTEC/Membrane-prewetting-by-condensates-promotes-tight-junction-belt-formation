@@ -1,4 +1,4 @@
-# Code for: "Prewetting of condensates at the apical interface promotes tight junction formation"
+# Code for: "Membrane prewetting by condensates promotes tight junction belt formation"
 Authors: Karina Pombo-García, Omar Adame-Arana, Cecilie Martin-Lemaitre, Frank Jülicher, Alf Honigmann
 
 This repository contains:
