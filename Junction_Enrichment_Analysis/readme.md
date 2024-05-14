@@ -9,13 +9,13 @@ Analysis code for evaluation protein enrichment in ZO1 condensates from 2-color 
 Make sure to add the folder "Matlab helper functions" to your MATLAB path.
 
 The code quantifies protein enrichment kinetics for mN-ZO1 and mS-Client from the input data in the folder "Data" and stores the results in folder "Analysis Results".
+
 Inputs (Run Code and Select Folder "Data"): 
 - Maximum intensity projections over time of the ZO1 channel.
 - Maximum intensity projections over time of the Client channel.
 - Segmentation of the ZO1 channel (done with FIJI, Rolling Ball Background removal Size 3, Binarize)
 - Cell Segmentation of the ZO1 Channel (done with CellPose, Cyto2 model)
 
-Processing:
 The code performs the following steps.
 - Loading the data
 - Filtering the ZO1 segmentation to remove pixel noise, i.e. segmented regions should be larger than 5 pixels.
